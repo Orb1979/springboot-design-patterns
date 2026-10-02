@@ -1,8 +1,10 @@
 # Decorator Pattern
 
-Decorator adds behavior to an object **at runtime** by wrapping it, instead of subclassing every feature combination.
+Decorator adds behavior to an object **at runtime** by wrapping it, 
+instead of subclassing every feature combination.
 
-A decorator *is* a `TextEditor` and *contains* a `TextEditor`. Each wrapper does extra work, then (or before) delegates to the inner editor.
+A decorator *is* a `TextEditor` and *contains* a `TextEditor`.
+Each wrapper does extra work, then (or before) delegates to the inner editor.
 
 ## How it works
 

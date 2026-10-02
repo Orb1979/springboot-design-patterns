@@ -1,6 +1,8 @@
 # Factory Method Pattern
 
-Factory Method lets you create objects **without hard-coding the concrete class**. The client calls `someOperation()` on a creator. The creator decides *which* product to make in `create()`.
+Factory Method lets you create objects **without hard-coding the concrete class**. \
+The client calls `someOperation()` on a creator. \
+The creator decides *which* product to make in `create()`.
 
 This folder shows two styles of the same idea:
 

@@ -1,8 +1,12 @@
 # Strategy Pattern
 
-Strategy makes an algorithm **interchangeable**. The service asks a `Payment` to pay. Which payment method is used is injected — not a pile of `if / else`.
+Strategy makes an algorithm **interchangeable** \
+The service asks a `Payment` to pay. \
+Which payment method is used is injected — not a pile of `if / else`.
 
-Without this pattern, `PaymentService` would grow a new branch for every type (PayPal, card, crypto, …) and violate the open/closed principle. With Strategy, you add a new class instead of editing the service.
+Without this pattern, `PaymentService` would grow a new branch for every type (PayPal, card, crypto, …) \
+and violate the open/closed principle. \
+With Strategy, you add a new class instead of editing the service.
 
 ## How it works
 
